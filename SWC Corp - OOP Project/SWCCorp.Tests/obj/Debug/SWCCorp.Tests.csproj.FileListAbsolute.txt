@@ -1,0 +1,13 @@
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\SWC Corp\SWCCorp.Tests\bin\Debug\SWCCorp.Tests.dll
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\SWC Corp\SWCCorp.Tests\bin\Debug\SWCCorp.Tests.pdb
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\SWC Corp\SWCCorp.Tests\bin\Debug\nunit.framework.dll
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\SWC Corp\SWCCorp.Tests\bin\Debug\SWCCorp.BLL.dll
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\SWC Corp\SWCCorp.Tests\bin\Debug\SWCCorp.Data.dll
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\SWC Corp\SWCCorp.Tests\bin\Debug\SWCCorp.Models.dll
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\SWC Corp\SWCCorp.Tests\bin\Debug\SWCCorp.BLL.pdb
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\SWC Corp\SWCCorp.Tests\bin\Debug\SWCCorp.Data.pdb
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\SWC Corp\SWCCorp.Tests\bin\Debug\SWCCorp.Models.pdb
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\SWC Corp\SWCCorp.Tests\bin\Debug\nunit.framework.xml
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\SWC Corp\SWCCorp.Tests\obj\Debug\SWCCorp.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\SWC Corp\SWCCorp.Tests\obj\Debug\SWCCorp.Tests.dll
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\SWC Corp\SWCCorp.Tests\obj\Debug\SWCCorp.Tests.pdb

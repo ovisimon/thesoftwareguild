@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Sales Report";
+}
+<h3>Sales Report</h3>
+<div class="container">
+    <div class="row">
+        <div class="form-group well col-lg-8 form-inline">
+            <div class="row">
+                <h4>Filters</h4>
+                <label>User</label>
+                <input type="text" id="UserSalesReport" />
+                <label>From Date</label>
+                <input type="text" class="form-control" style="width:180px" id="StartDateReport"/>
+                <label>To Date</label>
+                <input type="text" class="form-control" style="width:180px" id="EndDateReport"/><br />
+            </div><br />
+            <div class="row">
+                <button class="btn btn-primary col-lg-offset-1" id="SalesReportButton">Search</button>
+            </div>
+        </div>
+    </div><br />
+    <h3>Search Results</h3>
+    <table class="table" style="width:50%">
+        <thead>
+            <tr>
+                <th>User</th>
+                <th>Total Sales</th>
+                <th>Total Vehicles</th>
+            </tr>
+        </thead>
+        <tbody id="SalesReportTable">
+        </tbody>
+    </table>
+</div>
+
+@section scripts {
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="~/Scripts/SalesRp.js"></script>
+}

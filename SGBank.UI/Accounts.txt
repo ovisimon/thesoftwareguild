@@ -1,0 +1,10 @@
+AccountNumber,Name,Balance,AccountType
+11111,Free Customer,100.00,Free
+22222,Basic Customer,447.00,Basic
+33333,Premium Customer,946.00,Premium
+44444,John Smith,500.00,Free
+55555,Jim Jones,50,Basic
+66666,Ovi Simon,2003.00,Premium
+77777,Andrei Ardei,659,Basic
+88888,Adi Simon,3999,Basic
+99999,Ion Ionica,-110,Premium

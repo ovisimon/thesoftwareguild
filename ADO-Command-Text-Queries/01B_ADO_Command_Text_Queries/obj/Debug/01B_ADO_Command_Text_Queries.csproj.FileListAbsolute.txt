@@ -1,0 +1,7 @@
+C:\curriculum\DDWA\04-DB-Access\CodeSamples\01B_ADO_Command_Text_Queries\bin\Debug\01B_ADO_Command_Text_Queries.exe.config
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\ADO-Command-Text-Queries\01B_ADO_Command_Text_Queries\bin\Debug\01B_ADO_Command_Text_Queries.exe.config
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\ADO-Command-Text-Queries\01B_ADO_Command_Text_Queries\bin\Debug\01B_ADO_Command_Text_Queries.exe
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\ADO-Command-Text-Queries\01B_ADO_Command_Text_Queries\bin\Debug\01B_ADO_Command_Text_Queries.pdb
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\ADO-Command-Text-Queries\01B_ADO_Command_Text_Queries\obj\Debug\01B_ADO_Command_Text_Queries.csprojResolveAssemblyReference.cache
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\ADO-Command-Text-Queries\01B_ADO_Command_Text_Queries\obj\Debug\01B_ADO_Command_Text_Queries.exe
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\ADO-Command-Text-Queries\01B_ADO_Command_Text_Queries\obj\Debug\01B_ADO_Command_Text_Queries.pdb

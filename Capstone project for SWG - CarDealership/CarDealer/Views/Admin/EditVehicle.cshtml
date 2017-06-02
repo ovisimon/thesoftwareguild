@@ -1,0 +1,89 @@
+﻿
+@{
+    ViewBag.Title = "EditVehicle";
+}
+
+<h2>Edit Vehicle</h2>
+<div class="container">
+    <div class="form-group">
+        <div class="row">
+            <div class="col-lg-3">
+                <label>Make</label>
+                <select class="form-control" id="EditMake" onchange="getModels(this.value)">
+                    <option>--Select Make--</option>
+                </select>
+                <input type=hidden id="EditCarID" />
+                <label>Type</label>
+                <select class="form-control" id="EditType">
+                    <option>--Select Type--</option>
+                    <option value="New">New</option>
+                    <option value="Used">Used</option>
+                </select>
+                <label>Year</label>
+                <input type="text" class="form-control" id="EditYear"/>
+                <label>Color</label>
+                <select class="form-control" id="EditColor">
+                    <option>--Select Color--</option>
+                    <option value="1">Black</option>
+                    <option value="2">White</option>
+                    <option value="4">Blue</option>
+                    <option value="3">Red</option>
+                    <option value="5">Silver</option>
+                </select>
+                <label>Mileage</label>
+                <input type="text" class="form-control" id="EditMileage"/>
+                <label>MSRP</label>
+                <input type="text" class="form-control" id="EditMSRP"/>
+            </div>
+            <div class="col-lg-3">
+                <label>Model</label>
+                <select class="form-control" id="EditModel">
+                </select>
+                <label>Body Style</label>
+                <select class="form-control" id="EditBodyStyle">
+                    <option>--Select Body Style--</option>
+                    <option value="1">Sedan</option>
+                    <option value="2">Hatchback</option>
+                    <option value="3">SUV</option>
+                    <option value="4">Van</option>
+                    <option value="5">Pickup Truck</option>
+                    <option value="6">Coupe</option>
+                </select>
+                <label>Transmission</label>
+                <select class="form-control" id="EditTransmission">
+                    <option>--Select Transmission--</option>
+                    <option value="2">Automatic</option>
+                    <option value="1">Manual</option>
+                </select>
+                <label>Interior</label>
+                <select class="form-control" id="EditInterior">
+                    <option>--Select Interior--</option>
+                    <option value="1">Black</option>
+                    <option value="2">Red</option>
+                    <option value="3">Brown</option>
+                </select>
+                <label>VIN #</label>
+                <input type="text" class="form-control" id="EditVIN"/>
+                <label>Sale Price</label>
+                <input type="text" class="form-control" id="EditPrice"/>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <label>Description</label>
+            <textarea class="form-control" id="EditDescription"></textarea><br />
+            <label>Image</label>
+            <p id="EditOldImage"></p>
+            <label>Replace Image</label>
+            <input type="text" class="form-control" id="EditNewImage"/><br />
+            <input type="checkbox" id="EditFeatured"/><label>  Feature this vehicle<label /><br />
+            <button class="btn btn-danger" display="inline" id="DeleteButton">Delete</button>   <button class="btn btn-primary" display="inline" id="EditSaveButton">Save</button>
+            <input type="hidden" id="EditStock" />
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="~/Scripts/Edit.js"></script>
+}

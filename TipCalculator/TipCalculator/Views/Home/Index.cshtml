@@ -1,0 +1,32 @@
+﻿@model TipCalculator.Models.Order
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Tip Calculator</h2>
+
+@using (Html.BeginForm("Index", "Home", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.LabelFor(m => m.Total)
+        @Html.TextBoxFor(m => m.TotalWithoutTip, new { @class = "form-control", placeholder = "Total" })
+    </div>
+    <div>
+        @Html.LabelFor(m => m.Tip)
+        @Html.DropDownListFor(m => m.Tip,
+         new List<SelectListItem>
+            {
+                 new SelectListItem { Text="10%", Value="10" },
+                 new SelectListItem { Text="15%", Value="15" },
+                 new SelectListItem { Text="20%", Value="20" },
+             },
+                                        "- Select Tip -",
+                                        new { @class = "form-control"})
+    </div>
+    <div>
+        <p>
+            The total with tip is: $@Model.Total.ToString()
+        </p>
+    </div>
+    <button type="submit" class="btn btn-primary">Calculate</button>
+}

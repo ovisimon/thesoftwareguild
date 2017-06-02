@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5355408aba124cd4ac3e972b469e3e65" Name="Diagram1">
+        <EntityTypeShape EntityType="MovieCatalogModel.Genre" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MovieCatalogModel.Movie" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MovieCatalogModel.Rating" Width="1.5" PointX="6" PointY="1.75" IsExpanded="true" />
+        <AssociationConnector Association="MovieCatalogModel.FK__Movie__GenreId__15502E78" ManuallyRouted="true" >
+          <ConnectorPoint PointX="2.25" PointY="2.047841796875" />
+          <ConnectorPoint PointX="3" PointY="2.047841796875" />
+        </AssociationConnector>
+        <AssociationConnector Association="MovieCatalogModel.FK__Movie__RatingId__145C0A3F" ManuallyRouted="true" >
+          <ConnectorPoint PointX="6" PointY="2.4612939453125" />
+          <ConnectorPoint PointX="4.5" PointY="2.4612939453125" />
+        </AssociationConnector>
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

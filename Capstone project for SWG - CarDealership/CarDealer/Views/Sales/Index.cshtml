@@ -1,0 +1,110 @@
+﻿
+@{
+    ViewBag.Title = "Sales";
+}
+
+<h2>Sales</h2>
+<div class="container">
+    <div class="form-group well" style="height:150px;">
+        <div class="col-lg-offset-2 col-lg-3">
+            <label>Quick Search</label>
+            <input class="form-control" type="text" placeholder="Enter make, model, or year" id="SalesSearchTerm"/>
+            <button class="btn btn-default form-control" id="salesSearchButton">Search</button>
+        </div>
+        <div class="col-lg-2">
+            <label>Price</label>
+            <select class="form-control" id="SalesSearchMinPrice">
+                <option value="0">No Min</option>
+                <option value="10000">$10000</option>
+                <option value="20000">$20000</option>
+                <option value="30000">$30000</option>
+                <option value="40000">$40000</option>
+                <option value="50000">$50000</option>
+                <option value="60000">$60000</option>
+                <option value="70000">$70000</option>
+                <option value="80000">$80000</option>
+                <option value="90000">$90000</option>
+                <option value="100000">$100000</option>
+                <option value="200000">$200000</option>
+                <option value="300000">$300000</option>
+            </select>
+            <select class="form-control" id="SalesSearchMaxPrice">
+                <option value="1000000">No Max</option>
+                <option value="10000">$10000</option>
+                <option value="20000">$20000</option>
+                <option value="30000">$30000</option>
+                <option value="40000">$40000</option>
+                <option value="50000">$50000</option>
+                <option value="60000">$60000</option>
+                <option value="70000">$70000</option>
+                <option value="80000">$80000</option>
+                <option value="90000">$90000</option>
+                <option value="100000">$100000</option>
+                <option value="200000">$200000</option>
+                <option value="300000">$300000</option>
+            </select>
+        </div>
+        <div class="col-lg-2">
+            <label>Price</label>
+            <select class="form-control" id="SalesSearchMinYear">
+                <option value="1990">No Min</option>
+                <option value="1997">1997</option>
+                <option value="1998">1998</option>
+                <option value="1999">1999</option>
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+                <option value="2005">2005</option>
+                <option value="2006">2006</option>
+                <option value="2007">2007</option>
+                <option value="2008">2008</option>
+                <option value="2009">2009</option>
+                <option value="2010">2010</option>
+                <option value="2011">2011</option>
+                <option value="2012">2012</option>
+                <option value="2013">2013</option>
+                <option value="2014">2014</option>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+            </select>
+            <select class="form-control" id="SalesSearchMaxYear">
+                <option value="2018">No Max</option>
+                <option value="1997">1997</option>
+                <option value="1998">1998</option>
+                <option value="1999">1999</option>
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+                <option value="2005">2005</option>
+                <option value="2006">2006</option>
+                <option value="2007">2007</option>
+                <option value="2008">2008</option>
+                <option value="2009">2009</option>
+                <option value="2010">2010</option>
+                <option value="2011">2011</option>
+                <option value="2012">2012</option>
+                <option value="2013">2013</option>
+                <option value="2014">2014</option>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+            </select>
+        </div>
+    </div>
+    <div id="salesSearchResults">
+
+    </div>
+</div>
+
+@section scripts {
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="~/Scripts/Sales.js"></script>
+}

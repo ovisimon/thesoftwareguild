@@ -1,0 +1,5 @@
+OrderNumber|CostumerName|State|TaxRate|ProductType|Area|CostPerSquareFoot|LaborCostPerSquareFoot|MaterialCost|LaborCost|Tax|Total
+1|ovi|OH|6.25|Wood|11|5.15|4.75|56.65|52.25|6.806250|115.706250
+2|Jan|MI|5.75|Wood|123|5.15|4.75|633.45|584.25|70.017750|1287.717750
+3|Jay|MI|5.75|Wood|123|5.15|4.75|633.45|584.25|70.017750|1287.717750
+4|Tessa|MI|5.75|Wood|500|5.15|4.75|2575.00|2375.00|284.625000|5234.625000

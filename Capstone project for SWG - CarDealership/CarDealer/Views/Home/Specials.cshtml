@@ -1,0 +1,20 @@
+﻿@model List<CarDealer.Models.Special>
+@{
+    ViewBag.Title = "Specials";
+}
+
+<h2>Specials</h2>
+@foreach (var m in Model)
+{
+    <div class="container">
+        <div class="col-lg-12 well" style="height:200px">
+            <div class="col-lg-2">
+                <img style="width:150px;height:150px;" src="@m.ImagePath" />
+            </div>
+            <div class="col-lg-10">
+                <p>@m.Title</p>
+                <p>@m.Message</p>
+            </div>
+        </div>
+    </div>
+}

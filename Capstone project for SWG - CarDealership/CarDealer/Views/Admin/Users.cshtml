@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "Users";
+}
+
+<h2>Users</h2>
+@Html.ActionLink("Add a new User", "AddUser")
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Last Name</th>
+                <th>First name</th>
+                <th>Email</th>
+                <th>Role</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="UserEntries">
+        </tbody>
+    </table>
+</div>

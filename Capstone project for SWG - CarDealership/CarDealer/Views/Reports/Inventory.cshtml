@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "Inventory Report";
+}
+<h3>Inventory Report</h3>
+
+<div class="container">
+    <h4>New Vehicles</h4>
+    <div class="row">
+        <table class="table" style="width:50%">
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Make</th>
+                    <th>Model</th>
+                    <th>Count</th>
+                    <th>Stock Value</th>
+                </tr>
+            </thead>
+            <tbody id="NewVehiclesInventoryReport"></tbody>
+        </table>
+    </div><br />
+    <h4>Used Vehicles</h4>
+    <div class="row">
+        <table class="table" style="width:50%">
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Make</th>
+                    <th>Model</th>
+                    <th>Count</th>
+                    <th>Stock Value</th>
+                </tr>
+            </thead>
+            <tbody id="UsedVehiclesInventoryReport"></tbody>
+        </table>
+    </div>
+</div>
+
+@section scripts {
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="~/Scripts/Inventory.js"></script>
+}

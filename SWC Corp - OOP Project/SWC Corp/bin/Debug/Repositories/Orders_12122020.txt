@@ -1,0 +1,1 @@
+OrderNumber|CostumerName|State|TaxRate|ProductType|Area|CostPerSquareFoot|LaborCostPerSquareFoot|MaterialCost|LaborCost|Tax|Total

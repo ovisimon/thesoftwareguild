@@ -1,0 +1,5 @@
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\SGBank.UI\SGBank.Models\bin\Debug\SGBank.Models.dll
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\SGBank.UI\SGBank.Models\bin\Debug\SGBank.Models.pdb
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\SGBank.UI\SGBank.Models\obj\Debug\SGBank.Models.csprojResolveAssemblyReference.cache
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\SGBank.UI\SGBank.Models\obj\Debug\SGBank.Models.dll
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\SGBank.UI\SGBank.Models\obj\Debug\SGBank.Models.pdb

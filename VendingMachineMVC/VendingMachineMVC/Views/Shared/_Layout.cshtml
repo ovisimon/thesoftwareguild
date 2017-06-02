@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vending Machine MVC</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Vending Machine</h1>
+        <hr>
+        <div class="row">
+            <div class="col-md-9" id="product-div">
+                @RenderBody()
+            </div>
+            <div id="side-bar" style="height:750px" class="col-md-3">
+                <div style=" height 250px">
+                    <h3 class="text-center">Total $ In</h3><br>
+                    <input id="money-input" type="text" align="center" class="center-block form-control" />
+                    <div class="row">
+                        <br />
+                        <div>
+                            <button id="add-dollar-button" class="btn btn-default center-block">Add Dolar</button>
+                        </div>
+                        <div>
+                            <button id="add-quarter-button" class="btn btn-default center-block">Add Quarter</button>
+                        </div>
+                    </div><br />
+                    <div class="row">
+                        <div>
+                            <button id="add-dime-button" class="btn btn-default center-block">Add Dime</button>
+                        </div>
+                        <div>
+                            <button id="add-nickel-button" class="btn btn-default center-block">Add Nickel</button>
+                        </div>
+                    </div><hr>
+                </div>
+                <br />
+                <div style=" height 250px">
+                    <h3 class="text-center">Messages</h3><br>
+                    <div class="row">
+                        <div style="height: 50px" align="center">
+                            <p id="message-display">The messages will display here</p>
+                        </div>
+                    </div><br>
+                    <input id="item-display" type="text" align="center" class="center-block form-control" /><br>
+                    <input type="hidden" id="hidden-value" value="0.00" />
+                    <div class="row">
+                        <button id="make-purchase-button" class="btn btn-default center-block">Make Purchase</button>
+                    </div><hr>
+                </div>
+                <br />
+                <div style=" height 250px">
+                    <h3 class="text-center">Change</h3><br><br>
+                    <input id="change-display" type="text" align="center" class="center-block form-control" /><br>
+                    <div class="row">
+                        <br>
+                        <div id="change-coins">
+                            <br>
+                        </div><br>
+                    </div>
+                    <div class="row">
+                        <br>
+                        <div>
+                            <button id="change-return-button" class="btn btn-default center-block">Change Return</button>
+                        </div>
+                    </div><hr>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+        </div>
+    </div>
+    <script src="~/Scripts/jquery-3.1.1.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/Home.js"></script>
+</body>
+</html>

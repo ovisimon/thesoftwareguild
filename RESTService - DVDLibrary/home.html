@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DVD Library</title>
+        <link href="css/bootstrap.css" rel="stylesheet">
+    </head>
+    <body>
+        <br><br>
+        <div class="container">
+            <div class="row">
+                <div class="form-horizontal" role="form">
+                    <div class="form-group" id="top-buttons">
+                        <div class="col-md-2">
+                            <button type="button" id="create-DVD-button" class="btn btn-default form-control">Create DVD</button>
+                        </div>
+                        <div class="col-md-offset-2 col-md-2">
+                            <button type="button" id="search-button" class="btn btn-default form-control">Search</button>
+                        </div>
+                        <div class="col-md-2">
+                            <select class="selectpicker form-control" title="Search Category" id="search-category" required>
+                                <option selected disabled>Category</option>
+                                <option value="title">Title</option>
+                                <option value="year">Release Year</option>
+                                <option value="director">Director Name</option>
+                                <option value="rating">Rating</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <input type="text" id="search-term" class="form-control" required/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <hr>
+
+        <div class="row">
+            <div class="col-md-8">
+                <div id="DVD-table-div">
+                    <table id="DVD-table" class="table table-hover">
+                        <tr>
+                            <th>Table</th>
+                            <th>Release Date</th>
+                            <th>Director</th>
+                            <th>Rating</th>
+                            <th>Edit / Delete</th>
+                        </tr>
+
+                        <tbody id="content-rows">
+                           
+                        </tbody>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4" id="create-DVD">
+                <ul class="list-group" id="create-error-messages"></ul>
+                <h1>Create DVD</h1>
+                <div class="form-horizontal" "form-group" role="form" id="create-form-id">
+                    <label>Title</label>
+                    <div class="row">
+                        <input type="text" id="DVD-title-create" class="form-control" placeholder="Title" required/>
+                    </div><br>
+                    <label>Year of Release</label>
+                    <div class="row">
+                        <input type="text" id="release-year-create" class="form-control" placeholder="Year of Release" required/>
+                    </div><br>
+                    <label>Director</label>
+                    <div class="row">
+                        <input type="text" id="director-create" class="form-control" placeholder="Director"/>
+                    </div><br>
+                    <label>Rating</label>
+                    <div class="row">
+                        <input type="text" id="rating-create" class="form-control" placeholder="Rating"/>
+                    </div><br>
+                    <label>Notes</label>
+                    <div class="row">
+                        <input type="text" id="notes-create" class="form-control" placeholder="Notes"/>
+                    </div><br>
+                    <button class="btn btn-default" id="cancel-create-button">Cancel</button>
+                    <button class="btn btn-default" id="submit-create-button">Create</button>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="col-md-4" id="edit-DVD">
+                <ul class="list-group" id="edit-error-messages"></ul>
+                <h1>Edit DVD</h1>
+                <div class="form-horizontal" "form-group" role="form">
+                    <label>Title</label>
+                    <div class="row">
+                        <input type="text" id="DVD-title-edit" class="form-control" placeholder="Title" required/>
+                    </div><br>
+                    <label>Year of Release</label>
+                    <div class="row">
+                        <input type="text" id="release-year-edit" class="form-control" placeholder="Year of Release" required/>
+                    </div><br>
+                    <label>Director</label>
+                    <div class="row">
+                        <input type="text" id="director-edit" class="form-control" placeholder="Director"/>
+                    </div><br>
+                    <label>Rating</label>
+                    <div class="row">
+                        <input type="text" id="rating-edit" class="form-control" placeholder="Rating"/>
+                    </div><br>
+                    <label>Notes</label>
+                    <div class="row">
+                        <input type="text" id="notes-edit" class="form-control" placeholder="Notes"/>
+                    </div><br>
+                    <button class="btn btn-default" id="cancel-edit-button">Cancel</button>
+                    <button class="btn btn-default" id="submit-edit-button">Submit</button>
+                    <input type="hidden" id="edit-dvd-id">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6" id="view-container">
+                <div id="details-view">
+                </div>
+                <button class="btn btn-default" id="view-back">Back</button>
+            </div>
+        </div>
+
+    </div>
+        <script src="js/jquery-2.2.4.min.js"></script>
+        <script src="js/home.js"></script>
+    </body>
+</html>

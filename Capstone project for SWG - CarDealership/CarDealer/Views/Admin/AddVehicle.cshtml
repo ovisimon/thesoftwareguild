@@ -1,0 +1,80 @@
+﻿
+@{
+    ViewBag.Title = "AddVehicle";
+}
+@*in the future I need to populate the dropdowns dinamically with razor*@
+<h2>Add Vehicle</h2>
+<div class="container">
+    <div class="form-group">
+        <div class="row">
+            <div class="col-lg-3">
+                <label>Make</label>
+                <select class="form-control" id="AddMake" onchange="getModels(this.value)">
+                    <option>--Select Make--</option>
+                </select>
+                <label>Type</label>
+                <select class="form-control" id="AddType">
+                    <option value="New">New</option>
+                    <option value="Used">Used</option>
+                </select>
+                <label>Year</label>
+                <input type="text" class="form-control" id="AddYear"/>
+                <label>Color</label>
+                <select class="form-control" id="AddColor">
+                    <option value="1">Black</option>
+                    <option value="2">White</option>
+                    <option value="4">Blue</option>
+                    <option value="3">Red</option>
+                    <option value="5">Silver</option>
+                </select>
+                <label>Mileage</label>
+                <input type="text" class="form-control" id="AddMileage"/>
+                <label>MSRP</label>
+                <input type="text" class="form-control" id="AddMSRP"/>
+            </div>
+            <div class="col-lg-3">
+                <label>Model</label>
+                <select class="form-control" id="AddModel">
+                    <option>--Select Model--</option>
+                </select>
+                <label>Body Style</label>
+                <select class="form-control" id="AddBodyStyle">
+                    <option value="1">Sedan</option>
+                    <option value="2">Hatchback</option>
+                    <option value="3">SUV</option>
+                    <option value="4">Van</option>
+                    <option value="5">Pickup Truck</option>
+                    <option value="6">Coupe</option>
+                </select>
+                <label>Transmission</label>
+                <select class="form-control" id="AddTransmission">
+                    <option value="2">Automatic</option>
+                    <option value="1">Manual</option>
+                </select>
+                <label>Interior</label>
+                <select class="form-control" id="AddInterior">
+                    <option value="1">Black</option>
+                    <option value="2">Red</option>
+                    <option value="3">Brown</option>
+                </select>
+                <label>VIN #</label>
+                <input type="text" class="form-control" id="AddVIN"/>
+                <label>Sale Price</label>
+                <input type="text" class="form-control" id="AddPrice"/>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <label>Description</label>
+            <textarea class="form-control" id="AddDescription"></textarea>
+            <label>Picture</label>
+            <input type="text" class="form-control" id="AddPicture"/><br />
+            <button class="btn btn-primary" id="AddSaveButton">Save</button>
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="~/Scripts/AddVehicle.js"></script>
+}

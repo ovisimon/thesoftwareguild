@@ -1,0 +1,12 @@
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\SWC Corp\SWC Corp\bin\Debug\SWC Corp.exe.config
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\SWC Corp\SWC Corp\bin\Debug\SWC Corp.exe
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\SWC Corp\SWC Corp\bin\Debug\SWC Corp.pdb
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\SWC Corp\SWC Corp\bin\Debug\SWCCorp.BLL.dll
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\SWC Corp\SWC Corp\bin\Debug\SWCCorp.Models.dll
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\SWC Corp\SWC Corp\bin\Debug\SWCCorp.BLL.pdb
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\SWC Corp\SWC Corp\bin\Debug\SWCCorp.Models.pdb
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\SWC Corp\SWC Corp\obj\Debug\SWCCorp.UI.csprojResolveAssemblyReference.cache
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\SWC Corp\SWC Corp\obj\Debug\SWC Corp.exe
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\SWC Corp\SWC Corp\obj\Debug\SWC Corp.pdb
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\SWC Corp\SWC Corp\bin\Debug\SWCCorp.Data.dll
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\SWC Corp\SWC Corp\bin\Debug\SWCCorp.Data.pdb

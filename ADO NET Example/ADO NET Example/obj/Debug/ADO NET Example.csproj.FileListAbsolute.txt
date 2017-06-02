@@ -1,0 +1,6 @@
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\ADO NET Example\ADO NET Example\bin\Debug\ADO NET Example.exe.config
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\ADO NET Example\ADO NET Example\bin\Debug\ADO NET Example.exe
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\ADO NET Example\ADO NET Example\bin\Debug\ADO NET Example.pdb
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\ADO NET Example\ADO NET Example\obj\Debug\ADO NET Example.csprojResolveAssemblyReference.cache
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\ADO NET Example\ADO NET Example\obj\Debug\ADO NET Example.exe
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\ADO NET Example\ADO NET Example\obj\Debug\ADO NET Example.pdb

@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "Makes";
+}
+
+<h2>Makes</h2>
+<div class="container">
+    <div class="row form-group" display="inline">
+        <div class="col-lg-offset-2 col-lg-8 well form-inline">
+            <label>New make</label>
+            <input type="text" class="form-control" id="NewMakeName"/>
+            <label>User</label>
+            <input type="text" class="form-control" id="UserMakeName" />
+            <button class="btn btn-primary form-control" style="width:20%" id="NewMakeButton">Save</button>
+        </div>
+    </div><br />
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Make</th><th>Date Added</th><th>User</th>
+            </tr>
+        </thead>
+        <tbody id="MakeTable">
+
+        </tbody>
+    </table>
+</div>
+
+@section scripts {
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="~/Scripts/Makes.js"></script>
+}

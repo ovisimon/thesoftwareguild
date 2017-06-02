@@ -1,0 +1,21 @@
+﻿@model List<CarDealer.Models.Car>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Guild Cars</h1>
+</div><br /><hr />
+<h2>Featured Vehicles</h2><br />
+<div class="container">
+    @foreach (var m in Model)
+    {
+        <div class="col-lg-2 col-lg-offset-1 well">
+            <div style="text-align: center">
+                <img src="@m.Picture" height="100" width="100" /><br />
+                <h4>@m.Year @m.Make @m.Model</h4>
+                <h4>$ @m.Price</h4>
+            </div>
+        </div>
+    }
+</div>

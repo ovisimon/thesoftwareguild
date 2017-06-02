@@ -1,0 +1,5 @@
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\TipCalculator\TipCalculator.BLL\bin\Debug\TipCalculator.BLL.dll
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\TipCalculator\TipCalculator.BLL\bin\Debug\TipCalculator.BLL.pdb
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\TipCalculator\TipCalculator.BLL\obj\Debug\TipCalculator.BLL.csprojResolveAssemblyReference.cache
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\TipCalculator\TipCalculator.BLL\obj\Debug\TipCalculator.BLL.dll
+C:\Users\Ovi\Documents\the software guild\c sharp\bitbucket\ovi-simon-individual-work\TipCalculator\TipCalculator.BLL\obj\Debug\TipCalculator.BLL.pdb
